@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/avocado-bgd/sw.js', { scope: '/avocado-bgd/' })})}

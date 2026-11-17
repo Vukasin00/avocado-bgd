@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="sr" data-tenant="avocado">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="Poruči avocado toast, doručak, bowl ili hladno ceđeni sok iz Avocada — Vračar, Belville i Stari Grad, Beograd. Dostava ili preuzimanje." />
+    <meta name="theme-color" content="#E5EBC6" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Avocado" />
+    <link rel="icon" href="/avocado-bgd/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/avocado-bgd/apple-touch-icon.png" />
+    <title>Avocado · Breakfast, brunch & lunch, Beograd</title>
+    <style>
+      /* Splash painted before the JS bundle arrives (slow networks): brand colour + name, replaced by React. */
+      html, body, #root { height: 100%; margin: 0; }
+      body { background: var(--color-cream-100, #fff); }
+      .splash { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--color-forest-800, #222); }
+      .splash-name { font-family: var(--font-display, sans-serif); font-weight: var(--display-weight, 400); font-size: calc(40px * var(--display-scale, 1)); letter-spacing: var(--display-tracking, 0.02em); text-transform: var(--display-case, none); }
+      .splash-sub { font: 600 12px -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.55; }
+    </style>
+  <style id="tenant-theme">
+ html[data-tenant="avocado"] {
+  --color-cream-50: #FFFDF6;
+  --color-cream-100: #F8F3E4;
+  --color-cream-200: #EFE8D3;
+  --color-cream-300: #E2D9BF;
+  --color-cream-400: #C7BC9C;
+  --color-azure-100: #EEF2D6;
+  --color-azure-200: #DCE6A8;
+  --color-azure-300: #C9DA86;
+  --color-azure-400: #A9C35A;
+  --color-on-primary: #1E3A12;
+  --color-forest-950: #0F1F09;
+  --color-forest-900: #172C0E;
+  --color-forest-800: #1E3A12;
+  --color-forest-700: #284A18;
+  --color-forest-600: #335F20;
+  --color-forest-500: #4E7A3A;
+  --color-forest-400: #7A9A68;
+  --color-flame-100: #E3ECD6;
+  --color-flame-200: #B9CFA0;
+  --color-flame-500: #335F20;
+  --color-flame-600: #2A4F1A;
+  --color-flame-700: #213F14;
+  --color-tomato-500: #C2412D;
+  --color-tomato-100: #F8E0DA;
+  --color-basil-500: #357A38;
+  --color-basil-100: #E2F0DD;
+  --color-ink: #1C2A16;
+  --color-ink-2: #4E5B47;
+  --color-ink-3: #858F7D;
+  --font-display: "Josefin Sans", "Futura", "Century Gothic", system-ui, sans-serif;
+  --display-scale: 0.74;
+  --display-tracking: 0.06em;
+  --display-case: uppercase;
+  --display-weight: 600;
+  --motif: url(/avocado-bgd/motif.webp) center top / 150px auto repeat, linear-gradient(#E5EBC6, #E5EBC6);
+  --glass-bg: rgba(248, 243, 228, 0.82);
+ }
+/* self-hosted display font (latin + latin-ext for Serbian diacritics); /avocado-bgd/ is filled in by vite.config.ts */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/avocado-bgd/fonts/josefin-sans-600-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/avocado-bgd/fonts/josefin-sans-600-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+    <link rel="preload" as="image" href="/avocado-bgd/pizzas/breakfast-bowl.webp" />
+    <link rel="preload" as="image" href="/avocado-bgd/logo.png" />
+    <script type="module" crossorigin src="/avocado-bgd/assets/main-VYVcJ9h8.js"></script>
+    <link rel="stylesheet" crossorigin href="/avocado-bgd/assets/main-8aLNoPGg.css">
+  <link rel="manifest" href="/avocado-bgd/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/avocado-bgd/registerSW.js"></script></head>
+  <body>
+    <div id="root"><div class="splash"><span class="splash-name">Avocado</span><span class="splash-sub">Učitavanje</span></div></div>
+  </body>
+</html>

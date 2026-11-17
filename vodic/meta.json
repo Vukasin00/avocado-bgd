@@ -1,0 +1,47 @@
+{
+  "info": {
+    "id": "avocado",
+    "guideKey": "av-guide-done",
+    "storageKey": "avocado-bgd",
+    "fulfillments": [
+      "delivery",
+      "pickup"
+    ],
+    "sizes": 4,
+    "name": "Avocado",
+    "address": "Svetozara Markovića 36, Vračar, Beograd",
+    "phone": "060 160 6070",
+    "hours": "Pon–sub 08–20, ned 08–16 · Stari Grad svaki dan 08–21:30",
+    "instagram": "https://www.instagram.com/avocado_bgd/",
+    "logo": "logo.png",
+    "deliveryFee": 250,
+    "cardPayment": [],
+    "locations": 3,
+    "categories": 9,
+    "menu": "static",
+    "menuItems": 28,
+    "closedToday": false,
+    "soldOutToday": [],
+    "orders": "local",
+    "tenantPath": "avocado",
+    "emulator": false
+  },
+  "style": {
+    "bg": "#F8F3E4",
+    "card": "#FFFDF6",
+    "inset": "#EFE8D3",
+    "line": "#E2D9BF",
+    "primary": "#C9DA86",
+    "onPrimary": "#1E3A12",
+    "dark": "#172C0E",
+    "dark2": "#1E3A12",
+    "cta": "#335F20",
+    "ink": "#1C2A16",
+    "ink2": "#4E5B47",
+    "font": "\"Josefin Sans\", \"Futura\", \"Century Gothic\", system-ui, sans-serif",
+    "tracking": "0.06em",
+    "case": "uppercase",
+    "weight": "600",
+    "scale": "0.74"
+  }
+}

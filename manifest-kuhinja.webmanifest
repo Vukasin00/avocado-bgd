@@ -1,0 +1,26 @@
+{
+  "id": "/avocado-bgd/kuhinja",
+  "name": "Avocado · Kuhinja",
+  "short_name": "Kuhinja",
+  "description": "Portal za kuhinju — Avocado",
+  "lang": "sr",
+  "start_url": "/avocado-bgd/kuhinja",
+  "scope": "/avocado-bgd/kuhinja",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#172C0E",
+  "background_color": "#172C0E",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
